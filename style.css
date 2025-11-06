@@ -747,9 +747,22 @@ section {
 }
 
 /* Responsive Design */
+@media (min-width: 769px) {
+    .nav-brand {
+        position: static;
+        left: auto;
+        transform: none;
+    }
+    
+    .navbar .container {
+        justify-content: flex-start;
+    }
+}
+
 @media (max-width: 768px) {
     .logo-img {
         height: 40px;
+
     }
 
     .nav-menu {
